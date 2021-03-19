@@ -136,9 +136,9 @@ export function AccountBox(props) {
           />
           {active === "signin" && (
             <HeaderContainer>
-              <HeaderText>Welcome!</HeaderText>
-              {/* <HeaderText>Back</HeaderText> */}
-              <SmallText>To get started,enter your mobile number and ID.We'll send a one-time PIN to verify your number.</SmallText>
+              <HeaderText>Welcome</HeaderText>
+              <HeaderText>Back</HeaderText>
+              <SmallText>Please sign-in to continue!</SmallText>
             </HeaderContainer>
           )}
           {active === "signup" && (

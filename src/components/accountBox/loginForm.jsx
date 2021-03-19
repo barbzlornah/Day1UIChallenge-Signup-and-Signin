@@ -16,10 +16,10 @@ export function LoginForm(props) {
   return (
     <BoxContainer>
       <FormContainer>
-        <Input type="phone" placeholder="Mobile Number" />
-        <Input type="ID" placeholder="National ID" />
+        <Input type="email" placeholder="Email" />
+        <Input type="password" placeholder="Password" />
       </FormContainer>
-      {/* <Marginer direction="vertical" margin={10} />
+      <Marginer direction="vertical" margin={10} />
       <MutedLink href="#">Forgot your password?</MutedLink>
       <Marginer direction="vertical" margin="1.6em" />
       <SubmitButton type="submit">Signin</SubmitButton>
@@ -29,7 +29,7 @@ export function LoginForm(props) {
         <BoldLink href="#" onClick={switchToSignup}>
           Signup
         </BoldLink>
-      </MutedLink> */}
+      </MutedLink>
     </BoxContainer>
   );
 }
